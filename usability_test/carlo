@@ -1,0 +1,27 @@
+Nome: Carlo
+Eta': 23
+Occupazione: Laureando in Ingegneria dell'Automazione
+
+Compiti:
+1. Connettersi al Robot, inserire una Traiettoria e farla effettuare, controllando che l'obstacle avoidance funzioni.
+Il cambio cursore quando si e' sopra il tavolo suggerisce immediatamente a Carlo la possibilita' di inserire la traiettoria "per punti", semplicemente cliccando il tasto sx del mouse.
+Carlo inizialmente non capisce come eliminare un punto inserito per errore, poi, cercando nei menu, trova la voce undo e ottiene il risultato voluto.
+Nessun problema nell'attivazione dell'Obstacle Avoidance. Per riflesso, Carlo preme ctrl+c per connettersi. Gli appare il dialogo di connessione. Carlo inserisce l'indirizzo del Robot, quindi
+un dialogo lo informa dell'avvenuta connessione. Carlo, infine, preme start e osserva cio' che accade: al termine dell'effettuazione della traiettoria, Carlo ha avuto modo di verificare che l'Obstacle avoidance ha funzionato
+perche' il robot ha modificato la traiettoria impostata nel punto in cui c'era l'ostacolo, ma non ha utilizzato, sconoscendola, la widget RobotStatus, dove lo stato dei sensori di presenza viene visualizzato con dei flag.
+Inoltre, Carlo lamenta una mancanza di visualizzazione del Robot sul campo.
+
+TEMPO IMPIEGATO: 8 minuti e 34 secondi
+
+2. Aprire una sessione salvata su file, modificare alcuni punti della traiettoria, quindi salvarla
+Carlo apre una sessione precedentemente salvata su file, quindi modifica alcuni punti via drag and drop. Il cambio di cursore suggerisce la possibilità di modifica via drag and drop.
+Quindi la salva premendo ctrl+s. Sulla barra di stato un messaggio lo avverte dell'avvenuto salvataggio.
+
+TEMPO IMPIEGATO: 1 minuto e 20 secondi
+
+PUNTI DI FORZA:
+MANIPOLAZIONE DIRETTA DELLE TRAIETTORIE
+(risparmio di tempo)
+
+PUNTI DI DEBOLEZZA:
+ASSENZA DI UNA RAPPRESENTAZIONE "FISICA" DEL ROBOT SUL CAMPO

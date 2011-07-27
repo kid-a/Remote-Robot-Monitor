@@ -1,0 +1,84 @@
+from client import Client
+
+class Command():
+
+    def __init__(self, host, port=7999):
+        self.cli = Client(host, port)
+
+    # Position
+    def GetPosition(self):
+        r = self.cli.send("GetPosition\n")
+        if len(r) == 3:
+            return [float(x) for x in r]
+
+    def ResetPosition(self):
+        return self.cli.send("ResetPosition\n")
+    
+    def SetPosition(self, x, y, heading):
+        return self.cli.send("SetPosition;" + str(x) + ";" + str(y) + ";" + str(heading) + "\n")
+    
+    def StopAll(self):
+        return self.cli.send("StopAll\n")
+    
+    # Path
+    def ResetPath(self):
+	return self.cli.send("ResetPath\n")
+
+    def ExecutePath(self):
+        return self.cli.send("ExecutePath\n")
+     
+    def AddPathForward(self, distance):
+        return self.cli.send("AddPathForward;" + str(distance) + "\n")
+     
+    def AddPathRotate(self, theta):
+        return self.cli.send("AddPathRotate;" + str(theta) + "\n")
+    
+    def AddPathFA(self, x, y):
+        return self.cli.send("AddPathFA;" + str(x) + ";" + str(y) + "\n")
+    
+    def AddPathRA(self, theta):
+        return self.cli.send("AddPathRA;" + str(theta) + "\n")
+
+    def AddPathHD(self, x, y):
+        return self.cli.send("AddPathHD;" + str(x) + ";" + str(y) + "\n")
+     
+    def AddPathGo(self, x, y):
+        return self.cli.send("AddPathGo;" + str(x) + ";" + str(y) + "\n")
+
+    def ExecPathForward(self, distance):
+        return self.cli.send("ExecPathForward;" + str(distance) + "\n")
+    
+    def ExecPathRotate(self, theta):
+        return self.cli.send("ExecPathRotate;" + str(theta) + "\n")
+    
+    def ExecPathFA(self, x, y):
+        return self.cli.send("ExecPathFA;" + str(x) + ";" + str(y) + "\n")
+    
+    def ExecPathRA(self, theta):
+        return self.cli.send("ExecPathRA;" + str(theta) + "\n")
+
+    def ExecPathHD(self, x, y):
+        return self.cli.send("ExecPathHD;" + str(x) + ";" + str(y) + "\n")
+    
+    def ExecPathGo(self, x, y):
+        return self.cli.send("ExecPathGo;" + str(x) + ";" + str(y) + "\n")
+
+
+#c =  Command("192.168.1.99")
+def test1():
+    c.ResetPosition()
+    print c.GetPosition()
+    c.ResetPath()
+    c.AddPathFA(1000,0)
+    c.AddPathHD(1000,1000)
+    c.AddPathFA(1000,1000)
+    c.AddPathRotate(90)
+    c.AddPathRA(0)
+    c.ExecutePath()
+
+def test2():
+    print c.GetPosition()
+    c.ExecPathGo(0,0)
+
+def test3():
+    print c.GetPosition()

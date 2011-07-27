@@ -1,0 +1,26 @@
+COMPITO 1 : CONNESSIONE AL ROBOT,IMPOSTAZIONE E TEST DELL'OBSTACLE AVOIDANCE ED EFFETTUAZIONE DA PARTE DEL ROBOT DELLA TRAIETTORIA IMPOSTATA
+
+Andrea,23 anni,studente di Ingegneria Informatica ed esperto di robotica ha superato senza particolari problemi il primo compito. L'unica difficoltà è stata incontrata durante la fase di connessione con il robot in quando Andrea ha inserito un indirizzo non valido. Grazie all'aiuto di un messaggio di errore  (inserire eventualmente screenshoot del messaggio di errore durante il tentativo di connessione),è riuscito a capire dove ha sbagliato e quindi successivamente è riuscito a connettersi con il robot.
+Qui di seguito viene riportato in minuti il tempo impiegato da Andrea per portare a termine il proprio compito:
+
+NOME                    TEMPO IMPIEGATO
+
+Andrea                  3,45
+
+COMPITO 2: SALVARE UNA TRAITTORIA PRECEDENTEMENTE IMPOSTATA SU FILE,CARICARE TALE TRAITTORIA DA FILE E MODIFICARLA(aGGIUNGENDO,ELIMINANDO E/O SPOSTANDO PUNTI)
+
+Andrea non ha incontrato nessun problema a eseguire tale compito in quanto le funzionalità di salvataggio su file e caricamento da file sono state progettate per venire incontro all'utente finale del prodotto. Infatti nelle voci di menu corrispondenti sono state usate le icone più comuni in modo che l'utente possa tovare senza perdere troppo tempo le funzionalità volute.Qui di seguito viene riportato in minuti il tempo impiegato da Andrea per portare a termine il proprio compito:
+
+NOME                    TEMPO IMPIEGATO
+
+Andrea                  1,50 
+
+VALUTAZIONE DELL'APPLICAZIONE DA PARTE DEI COLLABORATORI
+
+NOME                    VOTO                   PUNTI DI FORZA                                                     PUNTI DI DEBOLEZZA
+
+Andrea                  8,5                    Posizionamento sul tavolo da gioco                                 Mancanza di un                              
+                                               Uso opportuno di cursori per ogni operazione da svolgere           indirizzo predefinito per la connessione al
+                                               Caricamento da file e salvataggio su file                          robot
+                                               
+
