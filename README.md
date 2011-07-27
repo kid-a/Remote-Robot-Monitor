@@ -8,11 +8,8 @@ Features include trajectory planning and handling, navigation mode selection, se
 
 Screenshots
 -----------
-https://github.com/kid-a/Remote-Robot-Monitor/raw/master/prototype/traiettoria3.png
-
 https://github.com/kid-a/Remote-Robot-Monitor/blob/master/prototype/debug.png
 
 https://github.com/kid-a/Remote-Robot-Monitor/blob/master/prototype/traiettoria3.png
 
 [1] http://eurobot.org
-
